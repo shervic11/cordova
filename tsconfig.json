@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "include": [
+    "./src/**/*",
+    "./types/**/*",
+    "./plugins/**/*"
+  ],
+  "files": [
+    "./node_modules/cordova-plugin-dialogs/types/index.d.ts",
+    "./node_modules/cordova-plugin-globalization/types/index.d.ts",
+    "./node_modules/cordova-plugin-statusbar/types/index.d.ts",
+    "./node_modules/phaser-ce/typescript/phaser.comments.d.ts"
+  ]
+}
